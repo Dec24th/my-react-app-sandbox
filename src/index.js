@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Welcome from './components/Welcome'; 
+import Greet from './components/Greet'; 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Welcome />
+    <Greet />
   </React.StrictMode>,
   document.getElementById('root')
 );
