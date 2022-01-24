@@ -7,14 +7,16 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
-import './App.css';
+import ParentComponent from './components/ParentComponent';
 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
+          <ParentComponent />
           <EventBind />
         <FunctionClick /> 
         <ClassClick /> 
