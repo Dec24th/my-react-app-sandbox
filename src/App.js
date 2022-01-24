@@ -4,6 +4,9 @@ import Hello from './components/Hello';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 import './App.css';
 
 
@@ -12,6 +15,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
+          <EventBind />
+        <FunctionClick /> 
+        <ClassClick /> 
          <Hello />
          <Greet name="Bruce" heroName="Batman" equipment="rifle">
            <p>This is children props</p>
