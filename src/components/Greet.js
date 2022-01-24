@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Greet = (props) => {
-    console.log(props)
+const Greet = (props) => { 
+      const {name, heroName, equipment, children} = props;
     return (
         <div>
         <h1>
-            Hello {props.name}, aka {props.heroName}.
+            Hello {name}, aka {heroName} from Greet.js
         </h1>
-        <h6>This is my {props.equipment}, there are many like it</h6>
-        {props.children}
+        <h6>This is my {equipment}, there are many like it from Greet.js</h6>
+        {children}
     </div>
     )
 }

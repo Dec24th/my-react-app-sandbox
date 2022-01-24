@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Welcome from './components/Welcome'; 
 import Greet from './components/Greet'; 
+import Hello from './components/Hello'; 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +12,8 @@ ReactDOM.render(
     <App />
     <Welcome />
     <Greet />
+    <Greet />
+    <Hello />
   </React.StrictMode>,
   document.getElementById('root')
 );
