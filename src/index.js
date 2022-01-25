@@ -10,10 +10,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Welcome />
-    <Greet />
-    <Greet />
-    <Hello />
+    {/* <Welcome />
+    <Greet /> 
+    <Hello /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

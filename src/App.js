@@ -10,6 +10,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
+          <Form />
           <NameList />    
           <UserGreeting />
           <ParentComponent />
@@ -42,6 +44,7 @@ function App() {
 
         <Message />
         <Counter />
+        <Hello name="Recruiter" company="Disney"/>
         </p> 
       </header>
     </div>
