@@ -11,6 +11,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Form from './components/Form';
+import FragmentDemo from './components/FragmentDemo';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
+          <FragmentDemo />
           <Form />
           <NameList />    
           <UserGreeting />
