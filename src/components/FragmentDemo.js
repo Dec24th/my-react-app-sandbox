@@ -12,3 +12,9 @@ function FragmentDemo() {
 }
 
 export default FragmentDemo;
+
+/**
+ * Fragments let you GROUP a list children lmnts
+ *    without adding extra nodes to the DOM
+ * https://youtu.be/bHdh1T0-US4
+ */

@@ -12,6 +12,9 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Form from './components/Form';
 import FragmentDemo from './components/FragmentDemo';
+import MainContent from './components/MainContent';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -20,6 +23,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
+          <Header />
+          <MainContent />
+          <Footer />
+          <hr></hr>
           <FragmentDemo />
           <Form />
           <NameList />    
